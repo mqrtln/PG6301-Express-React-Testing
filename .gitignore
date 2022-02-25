@@ -2,12 +2,7 @@
 node_modules/
 /.idea/
 /.env
-/client/.parcel-cache/2fc3881870e9181d
-/client/.parcel-cache/2fd1aaf4ea0da9f6
-/client/.parcel-cache/2fe4192728ea0d74
-/client/.parcel-cache/5b508715d3c82aaa
-/client/.parcel-cache/data.mdb
-/client/dist/index.d498c491.js
-/client/dist/index.d498c491.js.map
-/client/dist/index.html
-/client/.parcel-cache/lock.mdb
+/client/.parcel-cache/*
+/client/dist/
+/server/.parcel-cache/*
+/server/dist/
