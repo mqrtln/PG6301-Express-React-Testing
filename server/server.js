@@ -22,6 +22,11 @@ app.use((req, res, next) => {
   next();
 });
 
+app.delete("/api/login", (req, res) => {
+  res.clearCookie("username");
+  res.sendStatus(200);
+});
+
 app.get("/api/login", (req, res) => {
   function respond() {
     if (req.user) {
@@ -32,7 +37,7 @@ app.get("/api/login", (req, res) => {
     }
   }
 
-  setTimeout(respond, 3000);
+  setTimeout(respond, 1000);
 });
 
 app.post("/api/login", (req, res) => {

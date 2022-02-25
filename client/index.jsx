@@ -39,7 +39,22 @@ function FrontPage() {
   return (
     <div>
       <h1>Movie Application</h1>
-      {user ? <div>{user.fullName}</div> : <LoginLinks />}
+      {user ? (
+        <div>
+          {user.fullName}{" "}
+          <button
+            onClick={() => {
+              fetch("/api/login", {
+                method: "delete",
+              });
+            }}
+          >
+            Logout
+          </button>
+        </div>
+      ) : (
+        <LoginLinks />
+      )}
     </div>
   );
 }
