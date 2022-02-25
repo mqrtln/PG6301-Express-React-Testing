@@ -1,15 +1,16 @@
 Communication between frontend and backend
 ==========================================
 
-* [ ] Create frontend and backend
-  * [ ] root project with concurrently, prettier and husky
-  * [ ] client project with parcel, react, react-dom and react-router-dom
-  * [ ] server project with nodemon, express, body-parser, cookie-parser and dotenv
-* [ ] get endpoint in express
-* [ ] husky + prettier 
+* [x] Create frontend and backend
+  * [x] root project with concurrently, prettier and husky
+  * [x] client project with parcel, react, react-dom and react-router-dom
+  * [x] server project with nodemon, express, body-parser, cookie-parser and dotenv
+* [x] get endpoint in express
+* [x] husky + prettier 
 * [ ] deploy to heroku 
   * [ ] npm build => client npm install --invlude-dev && parcel && server npm install
   * [ ] npm start => node server.js
+* [ ] Server react app from Express
 * [ ] GET /api/login from front page
   * [ ] Fetch data from server
   * [ ] Loading time
