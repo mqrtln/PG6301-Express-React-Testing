@@ -39,7 +39,6 @@ function FrontPage() {
   return (
     <div>
       <h1>Movie Application</h1>
-      <h1>SEEEEECRET PAGE</h1>
       {user ? (
         <div>
           {user.fullName}{" "}
